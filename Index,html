@@ -75,3 +75,119 @@
   </div>
  </body>
 </html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .header .menu-icon {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            font-size: 24px;
+        }
+        .header .id-info {
+            font-size: 14px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .card i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .card .info {
+            flex-grow: 1;
+        }
+        .card .info .title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .card .info .value {
+            font-size: 16px;
+        }
+        .event {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .event .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .event .description {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <i class="fas fa-bars menu-icon"></i>
+        <div class="id-info">ID: 12028 &nbsp; Point: 0</div>
+    </div>
+    <div class="container">
+        <h1>Dashboard</h1>
+        <div class="card">
+            <i class="fas fa-user"></i>
+            <div class="info">
+                <div class="title">John Story</div>
+                <div class="value">castillanojomer21@gmail.com</div>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fas fa-money-bill-alt"></i>
+            <div class="info">
+                <div class="title">Total Points</div>
+                <div class="value">0</div>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fas fa-lock-open"></i>
+            <div class="info">
+                <div class="title">License Unused</div>
+                <div class="value">0</div>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fas fa-lock"></i>
+            <div class="info">
+                <div class="title">License Used</div>
+                <div class="value">0</div>
+            </div>
+        </div>
+        <div class="event">
+            <div class="title">Event</div>
+            <div class="description">
+                You transferred the License CAAC5B86E52D4A54A429E12E3F3A645E to Jheff Dorado (Jheffer1994@yahoo.com)
+            </div>
+        </div>
+    </div>
+</body>
+</html>
