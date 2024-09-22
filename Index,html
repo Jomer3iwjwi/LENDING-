@@ -1,32 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jomer's Lending Corp Inc.</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to Jomer's Lending Corp Inc.</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="settings.html">Settings</a></li>
-                <li><a href="credentials.html">Credentials</a></li>
-                <li><a href="customer-service.html">Customer Service</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Home</h2>
-            <p>This is the home page of Jomer's Lending Corp Inc.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Jomer's Lending Corp Inc. All rights reserved.</p>
-    </footer>
-</body>
+<html>
+ <head>
+  <title>
+   Login Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://placehold.co/720x1600') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .login-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .login-container input[type="email"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+        }
+        .login-container .sign-in {
+            background-color: #007bff;
+        }
+        .login-container .register {
+            background-color: #00bcd4;
+        }
+        .login-container a {
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+            margin-top: 10px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="login-container">
+   <img alt="Logo with text 'WIFI NG BAYAN VENDO SYSTEM'" height="100" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-LmQ09WWGIGwOeeA4ArnRw0x5/user-uJPET5fjNenSso8wCETWVNOp/img-0V9tN3tO3AKna8RAkcHjN6wn.png?st=2024-09-22T05%3A47%3A48Z&amp;se=2024-09-22T07%3A47%3A48Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-21T23%3A24%3A58Z&amp;ske=2024-09-22T23%3A24%3A58Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=eYmU7qN4poSi8GSAMXmhuR8fwY7mHjXTH1bP41hsS1I%3D" width="300"/>
+   <input placeholder="Email" type="email"/>
+   <input placeholder="Password" type="password"/>
+   <button class="sign-in">
+    Sign In
+   </button>
+   <button class="register">
+    Register
+   </button>
+   <a href="#">
+    Forgot Password?
+   </a>
+  </div>
+ </body>
 </html>
